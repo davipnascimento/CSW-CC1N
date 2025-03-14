@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 05</title>
+</head>
+<body>
+    <h1>Principais formatações</h1>
+    
+    <h2>Negrito / Destaque</h2>
+    Na frase temos uma <b>parte do texto em negrito</b> usando a tag B (não semântica)
+    <br>
+    <br>
+    Na frase temos uma <strong>parte do texto em negrito</strong> usando a tag strong (com semântica)
+    
+    <h2>Itálico / Ênfase</h2>
+    Nesta frase vamos entrar com uma palavra em <i>itálico</i> usando a tag i (não semântica)
+    <br>
+    <br>
+    Nesta frase vamos entrar com uma palavra em <em>itálico</em> usando a tag EM (com semântica)
+
+    <h2>Texro marcador</h2>
+    <style>
+        .marca1 {
+            background-color: green;
+        }
+        .marca2 {
+            background-color: yellow;
+        }
+    </style>
+    Aqui vamos usar um texto com destaque <mark class="marca1">de marcador de texto</mark> usando mark
+    <br>
+    <br>
+    Aqui vamos usar um texto com destaque <mark class="marca2">de marcador de texto</mark>
+
+    <h2>Texto grande e pequeno</h2>
+    Estamos trabalhando aqui com um <big>texto grande</big> e um <small>texto pequeno</small> nesta frase 
+    
+    <h2>Texto deletado</h2>
+    Neste parágrafo vamos trabalhar com um texto <del> que foi excluído</del> da frase (forma semântica)
+    
+    <h2>Texto inserido</h2>
+    Nesta frase vamos demonstrar como <ins>destacar um texto inserido</ins> na frase de forma semântica
+    <br>
+    <br>
+    Nesta frase vamos demonstrar como <u>destacar um texto inserido</u> na frase de forma não semântica
+
+    <h2>Texto sobrescrito</h2>
+    Vamos demonstrar uma fôrmula da equação do segundo grau ax<sup>2</sup> + bx + c = 0 usando tag sup 
+
+    <h2>Texto subescrito</h2>
+    Vamos demonstrar o texto subescrito com a fôrmula da água H<sub>2</sub>O 
+
+    <h2>Trecho de código fonte</h2>
+    Neste exemplo vou demonstrar um trecho de código 
+    <br>
+    <br>
+    Inserindo o comando <code>document.getElementById('edtCodigo')</code> que é um comando java script 
+    <br>
+    <br>
+    Inserindo um longo código de python
+    <br>
+    <br>
+    <pre>
+        <code>
+                import time
+
+        # Função que faz a contagem regressiva
+        def contagem_regressiva(inicio):
+            for i in range(inicio, -1, -1):
+                print(i)
+                time.sleep(1)  # Pausa de 1 segundo
+            print("Feliz Ano Novo!")
+
+        # Solicita ao usuário para digitar o tempo para a contagem regressiva
+        tempo = int(input("Digite o número de segundos para a contagem regressiva: "))
+
+        # Chama a função para iniciar a contagem
+        contagem_regressiva(tempo)
+
+        </code>
+    </pre>
+    
+    <h2>Citações (quotation) simples</h2>
+    Segundo Steve Jobs <q>O único modo de fazer um excelente trabalho é amar o que você faz</q>
+
+    <h2>Citações completas (livros)</h2>
+    Segundo Santo Agostinho no seu livro Confissões:
+    <blockquote 
+    cite="https://img.cancaonova.com/noticias/pdf/277537_SantoAgostinho-Confissoes.pdf">
+        Que és, portanto, ó meu Deus? Que és, repito, senão o Senhor Deus? Ó Deus sumo,
+    excelente, poderosíssimo, onipotentíssimo, misericordiosíssimo e justíssimo. 
+</blockquote>
+
+<h2>Abreviações</h2>
+Estamos estudando <abbr title="HiperText Markup Language">HTML</abbr> e 
+<abbr title="Cascate Style Sheet">CSS</abbr>
+
+<h2>Texto Invertido</h2>
+<bdo dir="ltr">Estou estudando HTML</bdo>
+<br>
+<br>
+<bdo dir="rtl">Estou estudando HTML</bdo>
+    
+</body>
+</html>
