@@ -1,64 +1,142 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>aula 07</title>
-</head>
-<h2>Desafio das Tabelas</h2>
-<body>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>aula-07</title>
+  </head>
+  <body>
+    <h2>Tabela de Times</h2>
     <table border="1">
-        <thead>
-            <tr>
-                <th colspan="2">Brasil</th>
-            </tr>
-            <th>Estado</th>
-            <th>Time</th>
-        </thead>
-        <tbody>
-            <tr>
-                <td rowspan="4">São Paulo</td>
-                <td>Corinthians</td>
-            </tr>
-<tr>
-    <td>Palmeiras</td>
-</tr>
-<tr>
-    <td>São Paulo</td>
-</tr>
-<tr>
-    <td>Santos</td>
-</tr>
-        </tbody>
-        <tbody>
-            <tr>
-                <td rowspan="4">Rio de Janeiro</td>
-                <td>Flamengo</td>
-            </tr>
-            <tr>
-                <td>Vasco</td>
-            </tr>
-            <td>Fluminense</td>
-            <tr>
-                <td>Botafogo</td>
-            </tr>
-        </tbody>
-</table>
-<br>
-<table border="1">
-    <thead>
-        <tr>
-            <th colspan="2">Produto</th>
-            <th>Análise de Preço</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <th rowspan="2">Caixa JBL Bump!</th>
-            </tr>
-    </tbody>
+      <tr>
+        <th colspan="2">Brasil</th>
+      </tr>
+      <tr>
+        <th>Estado</th>
+        <th>Time</th>
+      </tr>
+      <tr>
+        <td rowspan="5">São Paulo</td>
+        <td>Corinthians</td>
+      </tr>
+      <tr>
+        <td>Palmeiras</td>
+      </tr>
+      <tr>
+        <td>São Paulo</td>
+      </tr>
+      <tr>
+        <td>Santos</td>
+      </tr>
+      <tr>
+        <td>Botafogo</td>
+      </tr>
+      <tr>
+        <td rowspan="4">Rio de Janeiro</td>
+        <td>Flamengo</td>
+      </tr>
+      <tr>
+        <td>Fluminense</td>
+      </tr>
+      <tr>
+        <td>Vasco</td>
+      </tr>
+    </table>
 
-</table>
+    <h2>Tabela de Gastos e Lucros</h2>
+    <table border="1">
+      <tr>
+        <th rowspan="2">Funcionário</th>
+        <th rowspan="2">Semestre</th>
+        <th colspan="2">Gastos</th>
+        <th colspan="2">Lucros</th>
+      </tr>
+      <tr>
+        <th>Líquido</th>
+        <th>Bruto</th>
+        <th>Líquido</th>
+        <th>Bruto</th>
+      </tr>
+      <tr>
+        <td rowspan="2">João</td>
+        <td>1º</td>
+        <td>1000</td>
+        <td>1200</td>
+        <td>200</td>
+        <td>300</td>
+      </tr>
+      <tr>
+        <td>2º</td>
+        <td>1000</td>
+        <td>1200</td>
+        <td>200</td>
+        <td>300</td>
+      </tr>
+      <tr>
+        <td rowspan="2">Maria</td>
+        <td>1º</td>
+        <td>1000</td>
+        <td>1200</td>
+        <td>200</td>
+        <td>300</td>
+      </tr>
+      <tr>
+        <td>2º</td>
+        <td>1000</td>
+        <td>1200</td>
+        <td>200</td>
+        <td>300</td>
+      </tr>
+    </table>
 
-</body>
+    <h2>Análise de Preços</h2>
+    <table border="1">
+      <tr>
+        <th>Produto</th>
+        <th colspan="3">Análise de Preço</th>
+      </tr>
+      <tr>
+        <td rowspan="4">Caixa JBL Bump!</td>
+        <td>Submarino</td>
+        <td>Boleto</td>
+        <td>R$ 300,00</td>
+      </tr>
+      <tr>
+        <td>Submarino</td>
+        <td>Cartão</td>
+        <td>R$ 350,00</td>
+      </tr>
+      <tr>
+        <td>Amazon</td>
+        <td>Boleto</td>
+        <td>R$ 310,00</td>
+      </tr>
+      <tr>
+        <td>Amazon</td>
+        <td>Cartão</td>
+        <td>R$ 340,00</td>
+      </tr>
+      <tr>
+        <td rowspan="4">Apple Watch SE</td>
+        <td>Submarino</td>
+        <td>Boleto</td>
+        <td>R$ 2300,00</td>
+      </tr>
+      <tr>
+        <td>Submarino</td>
+        <td>Cartão</td>
+        <td>R$ 2500,00</td>
+      </tr>
+      <tr>
+        <td>Amazon</td>
+        <td>Boleto</td>
+        <td>R$ 2350,00</td>
+      </tr>
+      <tr>
+        <td>Amazon</td>
+        <td>Cartão</td>
+        <td>R$ 2350,00</td>
+      </tr>
+    </table>
+  </body>
 </html>
